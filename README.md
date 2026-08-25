@@ -15,6 +15,7 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 # Specifics on gameplay functionality
 **Tarot Cards:**
 - All tarot cards that apply an enhancement now have the ability to remove them as well.
+
 **Mod Compatibility:**
 - This mod will not work with modded enhancements.
 - Modded enhancements will replace all vanilla enhancements as they cannot coexist.
