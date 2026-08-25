@@ -4,6 +4,10 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 # Requirements
 Steamodded [Click here](https://github.com/Steamodded/smods/wiki)
 
+# Installation
+1. Go to the [latest release](https://github.com/Sparkly-Sparks/Recursive-Enhancements/releases/latest)
+2. Download Recursive-Enhancements.zip and put it into mod the "Mods" folder.
+
 Lovely [Click here](https://github.com/ethangreen-dev/lovely-injector) (You should already have this if you have Steammodded.)
 
 # Features
