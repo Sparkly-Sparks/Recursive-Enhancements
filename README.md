@@ -19,7 +19,7 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 **Mod Compatibility:**
 - This mod will not work with modded enhancements.
 - Modded enhancements will replace all vanilla enhancements as they cannot coexist.
-- Trying to add a vanilla enhancement onto a modded enhanced card with cause the modded enhancement to be replaced by the vanilla one.
+- Trying to add a vanilla enhancement onto a modded enhanced card will cause the modded enhancement to be replaced by the vanilla one.
 # Notice
 - This mod is currently in beta.
 - There are a few kinks left but it will be finished shortly.
