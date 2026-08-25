@@ -28,5 +28,6 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 - Fix SMODS.has_enhancement() (I replaced it completely instead of hooking it correctly.)
 - Consider fixing standard packs.
 - Add a custom, enhancement themed deck.
-
+# Feedback
+If you have anything to say about your experience, you may do so [here](https://discord.com/channels/1116389027176787968/1541912473312174192).
 
