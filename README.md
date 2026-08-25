@@ -8,7 +8,7 @@ Steamodded [Click here](https://github.com/Steamodded/smods/wiki)
 Lovely [Click here](https://github.com/ethangreen-dev/lovely-injector) (You should already have this if you have Steammodded.)
 # Installation
 1. Go to the [latest release](https://github.com/Sparkly-Sparks/Recursive-Enhancements/releases/latest)
-2. Download Recursive-Enhancements.zip and put it into mod the "Mods" folder.
+2. Download Recursive-Enhancements.zip and put it into the "Mods" folder.
 # Features
 Adds 247 new enhancements. (Every combination of the eight default enhancements.)
 
@@ -22,11 +22,11 @@ This mod is currently in beta.
 There are a few kinks left but it will be finished shortly.
 # To do list for upcoming updates
 
-Fix glass cards (I didn't make most of them transparent)
+Fix glass cards (My code glitched and they came out not transparent)
 
 Fix Vampire and Midas Mask (They work, but not as well as they should.)
 
-Fix SMODS.has_enhancement() (I think I bork it.)
+Fix SMODS.has_enhancement() (I replaced it completely instead of hooking it correctly.)
 
 Consider fixing standard packs.
 
