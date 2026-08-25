@@ -15,6 +15,17 @@ Adds 247 new enhancements. (Every combination of the eight default enhancements.
 Enhancement tarot cards can now add or remove their respective enhancements from selected cards.
 
 ![Tarot](assets/2x/Tarots.png)
+# Specifics on gameplay functionality
+Tarot Cards:
+All tarot cards that apply an enhancement now have the ability to remove them as well.
+
+Mod Compatibility:
+This mod will not work with modded enhancements.
+
+Modded enhancements will replace all vanilla enhancements as they cannot coexist.
+
+Trying to add a vanilla enhancement onto a modded enhanced card with cause the modded enhancement to be replaced by the vanilla one.
+
 # Notice
 
 This mod is currently in beta.
