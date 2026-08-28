@@ -7,7 +7,7 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 - Lovely [Click here](https://github.com/ethangreen-dev/lovely-injector) (You should already have this if you have Steammodded.)
 # Installation
 1. Go to the [latest release](https://github.com/Sparkly-Sparks/Recursive-Enhancements/releases/latest)
-2. Download Recursive-Enhancements.zip and put it into the "Mods" folder.
+2. Download Recursive-Enhancements2.zip and put it into the "Mods" folder.
 # Features
 - Adds 247 new enhancements. (Every combination of the eight default enhancements.)
 - Enhancement tarot cards can now add or remove their respective enhancements from selected cards.
