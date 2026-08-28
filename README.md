@@ -20,15 +20,9 @@ Recursive Enhancements is a Balatro mod that allows you to simultaneously have a
 - This mod will not work with modded enhancements.
 - Modded enhancements will replace all vanilla enhancements as they cannot coexist.
 - Trying to add a vanilla enhancement onto a modded enhanced card will cause the modded enhancement to be replaced by the vanilla one.
-# Notice
-- This mod is currently in beta.
-- There are a few kinks left but it will be finished shortly.
 # To do list for upcoming updates
-- Fix glass cards (My code glitched and they came out not transparent)
-- Fix Vampire and Midas Mask (They work, but not as well as they should.)
-- Fix SMODS.has_enhancement() (I replaced it completely instead of hooking it correctly.)
-- Consider fixing standard packs.
+- Give Vampire a popup message for when it upgrades.
+- Add new art for the enhancement tarot cards.
 - Add a custom, enhancement themed deck.
 # Feedback
-If you have anything to say about your experience, you may do so [here](https://discord.com/channels/1116389027176787968/1541912473312174192).
-
+If you have anything to say about your experience, you may do so in the discord post [here](https://discord.com/channels/1116389027176787968/1541912473312174192).
