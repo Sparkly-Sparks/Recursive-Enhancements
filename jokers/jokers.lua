@@ -6,17 +6,17 @@ SMODS.Joker:take_ownership('vampire',
         end,
         calculate = function(self, card, context)
             if context.before and not context.blueprint then
-                local enhanced = 0
+                local enhanced = {}
                 for _, scored_card in ipairs(context.scoring_hand) do
                     if next(SMODS.get_enhancements(scored_card)) and not scored_card.debuff and not scored_card.vampired then
                         if next(SMODS.get_enhancements(scored_card)):find("recenh") then
-                            for _,i in ipairs(card.ability.extra.enhancements) do
+                            for _, i in ipairs(card.ability.extra.enhancements) do
                                 if next(SMODS.get_enhancements(scored_card)):find(i) then
-                                    enhanced = enhanced + 1
+                                    enhanced[#enhanced + 1] = true
                                 end
                             end
                         else
-                            enhanced = enhanced + 1
+                            enhanced[#enhanced + 1] = true
                         end
                         scored_card.vampired = true
                         scored_card:set_ability('c_base', nil, true)
@@ -29,12 +29,13 @@ SMODS.Joker:take_ownership('vampire',
                         }))
                     end
                 end
-                if enhanced > 0 then
-                    card.ability.extra.Xmult = card.ability.extra.Xmult + card.ability.extra.Xmult_gain * enhanced
-                    return {
-                        message = localize { type = 'variable', key = 'a_xmult', vars = { card.ability.extra.Xmult } },
-                        colour = G.C.MULT
-                    }
+                if #enhanced > 0 then
+                    card.ability.extra.Xmult = card.ability.extra.Xmult + card.ability.extra.Xmult_gain * #enhanced
+                        return
+                            {
+                                message = localize { type = 'variable', key = 'a_xmult_plus', vars = { #enhanced / 10 } },
+                                colour = G.C.MULT,
+                            }
                 end
             end
             if context.joker_main then
